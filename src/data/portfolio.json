@@ -1,0 +1,31 @@
+{
+  "name": "Arah Abaki",
+  "title": "Software Engineer",
+  "tagline": "I build simple, reliable systems. Currently exploring cloud-native infrastructure and distributed systems.",
+  "bio": "Halo! Saya Arah, seorang engineer yang suka membangun hal-hal sederhana namun bermanfaat. Saat ini saya sedang mendalami Kubernetes, cloud-native, dan cara membuat sistem yang reproducible. Ketika tidak sedang coding, saya biasanya membaca atau bereksperimen dengan homelab saya.",
+  "email": "hello@arahabaki.my.id",
+  "projects": [
+    {
+      "name": "Kubernetes Homelab",
+      "description": "Cluster Kubernetes self-hosted dengan Traefik, MetalLB, dan Cloudflare Tunnel untuk expose service ke internet.",
+      "url": "https://github.com/username",
+      "tags": ["Kubernetes", "Traefik", "MetalLB"]
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "Website portfolio yang kamu sedang lihat sekarang. Dibangun dengan React + Vite, di-containerize dengan Docker, dan di-deploy ke Kubernetes.",
+      "url": "https://github.com/username/portfolio",
+      "tags": ["React", "Vite", "Docker", "Kubernetes"]
+    },
+    {
+      "name": "Lorem Project",
+      "description": "Deskripsi singkat project lainnya. Ganti dengan project asli kamu.",
+      "tags": ["TypeScript", "Node.js"]
+    }
+  ],
+  "socials": [
+    { "label": "GitHub", "url": "https://github.com/username" },
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/username" },
+    { "label": "Twitter", "url": "https://twitter.com/username" }
+  ]
+}
