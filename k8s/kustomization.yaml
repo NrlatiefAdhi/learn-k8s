@@ -7,6 +7,5 @@ resources:
   - ingress.yaml
 
 images:
-  - name: REGISTRY/USERNAME/portfolio
-    newName: REGISTRY/USERNAME/portfolio
-    newTag: latest
+  - name: ghcr.io/nrlatiefadhi/portfolio
+    newTag: sha-cd27d33
