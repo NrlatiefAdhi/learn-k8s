@@ -14,16 +14,21 @@ FROM nginx:1.27-alpine AS runtime
 
 RUN rm -rf /usr/share/nginx/html/* /etc/nginx/conf.d/default.conf
 
+# Overwrite main config (untuk pid & log path)
+COPY nginx-main.conf /etc/nginx/nginx.conf
+
+# Server block
 COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Static files
 COPY --from=builder /app/dist /usr/share/nginx/html
 
+# Non-root user
 RUN addgroup -S app && adduser -S app -G app \
     && chown -R app:app /usr/share/nginx/html \
     && chown -R app:app /var/cache/nginx \
     && chown -R app:app /var/log/nginx \
-    && chown -R app:app /etc/nginx/conf.d \
-    && touch /var/run/nginx.pid \
-    && chown -R app:app /var/run/nginx.pid
+    && chown -R app:app /etc/nginx/conf.d
 
 USER app
 
