@@ -5,6 +5,8 @@ import Expertise from './components/Expertise'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import TechStack from './components/TechStack'
+import Certifications from './components/Certifications'
+import Education from './components/Education'
 import Contact from './components/Contact'
 import data from './data/portfolio.json'
 
@@ -26,6 +28,8 @@ export default function App() {
         <Experience items={data.experience} />
         <Projects projects={data.projects} />
         <TechStack items={data.techStack} />
+        <Certifications items={data.certifications} />
+        <Education data={data.education} />
         <Contact email={data.email} socials={data.socials} />
       </main>
       <footer className="border-t border-neutral-800 py-6 text-center text-sm text-neutral-500">

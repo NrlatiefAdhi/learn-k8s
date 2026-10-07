@@ -1,39 +1,39 @@
 {
-  "name": "Your Name",
+  "name": "Nurlatief Adhi Jagad",
   "title": "Network Engineer",
-  "tagline": "Designing, operating, and automating reliable networks.",
-  "description": "Fokus pada network infrastructure, routing & switching, enterprise & ISP networking, SD-WAN, network security, dan network automation.",
-  "email": "hello@arahabaki.my.id",
-  "location": "Jakarta, Indonesia",
+  "tagline": "Designing, operating, and automating reliable enterprise networks.",
+  "description": "Network Engineer with 4+ years of experience in enterprise network infrastructure, SD-WAN implementation, and network security. Proven track record managing large-scale government and enterprise networks — from operating 10,000+ devices to migrating 300+ branch sites to SD-WAN.",
+  "email": "nurlatiefadhijagad@gmail.com",
+  "location": "Bekasi, Indonesia",
   "availability": "Open for opportunities",
   "socials": [
-    { "label": "GitHub",   "url": "https://github.com/username" },
-    { "label": "LinkedIn", "url": "https://linkedin.com/in/username" },
-    { "label": "Email",    "url": "mailto:hello@arahabaki.my.id" }
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/nurlatief-adhi-jagad-149b26207" },
+    { "label": "GitHub",   "url": "https://github.com/NrlatiefAdhi" },
+    { "label": "Email",    "url": "mailto:nurlatiefadhijagad@gmail.com" }
   ],
 
   "about": {
-    "bio": "Saya adalah Network Engineer yang berfokus pada perancangan, operasional, dan otomasi infrastruktur jaringan. Berpengalaman menangani enterprise networking, ISP networking, SD-WAN, network security, hingga membangun tool otomasi untuk mempercepat provisioning dan monitoring.",
+    "bio": "Network Engineer with 4+ years of progressive experience in enterprise network infrastructure, SD-WAN implementation, and network security. Proven track record achieving 99.8% network uptime and migrating traditional WAN to SD-WAN across 300+ branch sites. Experienced handling large-scale government and enterprise networks with Cisco, Fortinet, Huawei, and Palo Alto ecosystems.",
     "stats": [
-      { "label": "Years of Experience", "value": "5+" },
-      { "label": "Networks Managed",    "value": "40+" },
-      { "label": "Projects Delivered",  "value": "25+" },
-      { "label": "Technologies",        "value": "30+" }
+      { "label": "Years of Experience", "value": "4+" },
+      { "label": "Devices Managed",     "value": "10K+" },
+      { "label": "Network Uptime",      "value": "99.8%" },
+      { "label": "Branch Sites",        "value": "300+" }
     ]
   },
 
   "expertise": [
     {
       "category": "Network Engineering",
-      "skills": ["Routing & Switching", "BGP", "OSPF", "MPLS", "IP VPN", "VLAN", "QoS"]
+      "skills": ["Routing & Switching", "BGP", "OSPF", "MPLS", "IP VPN", "VLAN", "QoS", "Metro Ethernet"]
     },
     {
       "category": "Network Security",
-      "skills": ["Firewall", "FortiGate", "IPsec", "Security Policy", "Network Monitoring"]
+      "skills": ["NGFW", "Palo Alto", "FortiGate", "WAF", "IPsec", "NAT (DNAT/SNAT)", "Security Policy", "SIEM"]
     },
     {
       "category": "SD-WAN",
-      "skills": ["Fortinet SD-WAN", "WAN Optimization", "Traffic Steering", "Multi-WAN"]
+      "skills": ["Fortinet SD-WAN", "WAN Optimization", "Traffic Steering", "Multi-WAN", "Failover"]
     },
     {
       "category": "Network Automation",
@@ -41,90 +41,137 @@
     },
     {
       "category": "Infrastructure & Monitoring",
-      "skills": ["Zabbix", "Grafana", "Prometheus", "Linux"]
+      "skills": ["Zabbix", "SIEM", "Linux", "Windows Server", "AWS", "VPC Security Groups"]
     }
   ],
 
   "experience": [
     {
-      "company": "[COMPANY]",
-      "position": "[POSITION]",
-      "period": "[PERIOD]",
-      "description": "[DESCRIPTION]",
+      "company": "PT. Data Sinergitama Jaya Tbk (Eliter)",
+      "position": "Network Engineer",
+      "period": "May 2026 — Present",
+      "description": "Managing end-to-end network requirements for Diskominfo Jawa Barat as a key government customer — covering network provisioning, configuration management, and ongoing support to ensure reliable connectivity for public sector digital services.",
       "responsibilities": [
-        "Merancang dan mengoperasikan jaringan enterprise multi-site.",
-        "Mengimplementasikan SD-WAN untuk optimasi WAN dan traffic steering.",
-        "Membangun pipeline otomasi provisioning menggunakan Python & Ansible."
+        "Executed migration of workloads from Disaster Recovery (DR) to Disaster Recovery Center (DRC) environment with zero unplanned downtime.",
+        "Configured and managed NAT policies (DNAT/SNAT) on Palo Alto NGFW for multi-tenant Data Center environments.",
+        "Deployed WAF policies and custom signatures to protect customer-facing web services.",
+        "Implemented Security Groups within VPC environments for micro-segmentation aligned with zero-trust principles.",
+        "Provisioned VMs in cloud infrastructure including network interface binding and routing table assignment.",
+        "Configured L2/L3 switching and routing for Data Center interconnection (VLAN segmentation, inter-VLAN routing, dynamic routing)."
       ],
-      "technologies": ["Cisco", "FortiGate", "BGP", "Ansible"]
+      "technologies": ["Palo Alto NGFW", "WAF", "VPC", "AWS", "VLAN", "Routing & Switching"]
     },
     {
-      "company": "[COMPANY]",
-      "position": "[POSITION]",
-      "period": "[PERIOD]",
-      "description": "[DESCRIPTION]",
+      "company": "PLN Icon Plus",
+      "position": "Engineer Network Analyst — Router & Security",
+      "period": "May 2025 — May 2026",
+      "description": "Advanced network troubleshooting and root cause analysis for router and security incidents across all regional networks.",
       "responsibilities": [
-        "Mengelola infrastruktur ISP core & distribution network.",
-        "Menangani network security policy dan firewall rules.",
-        "Monitoring performa jaringan dengan Zabbix & Grafana."
+        "Resolved 50+ network incidents per month with an average MTTR < 30 minutes.",
+        "Maintained 99% network uptime across enterprise router and firewall infrastructure.",
+        "Monitored network performance with Zabbix and centralized syslog via SIEM platforms.",
+        "Delivered network services for PLN, Pertamina, ministries, Diskominfo, Dirjenpas, and BRIN.",
+        "Engineered BGP transit peering for IX and IIX exchange connectivity.",
+        "Managed 10,000+ router and firewall devices across government and enterprise networks.",
+        "Implemented Metro Ethernet and Cloud IP VPN services for banking and retail customers."
       ],
-      "technologies": ["MikroTik", "OSPF", "MPLS", "Zabbix"]
+      "technologies": ["BGP", "Metro Ethernet", "IP VPN", "NGFW", "Zabbix", "SIEM"]
+    },
+    {
+      "company": "PLN Icon Plus",
+      "position": "Junior Engineer Network — SD-WAN",
+      "period": "Dec 2024 — May 2025",
+      "description": "Migrated network devices from traditional WAN to SD-WAN technology to improve customer network efficiency, flexibility, and cost-effectiveness.",
+      "responsibilities": [
+        "Led migration of 50+ enterprise branch offices to Fortinet SD-WAN architecture.",
+        "Participated in large-scale SD-WAN deployment across 300+ branch sites.",
+        "Managed multi-vendor SD-WAN devices across Cisco, FortiGate, and Huawei platforms.",
+        "Compiled comprehensive network topology documentation for customer SD-WAN deployments."
+      ],
+      "technologies": ["Fortinet SD-WAN", "Cisco", "Huawei", "FortiGate"]
+    },
+    {
+      "company": "PT Supra Primatama Nusantara",
+      "position": "Network Operation Access",
+      "period": "Aug 2021 — Dec 2024",
+      "description": "Collaborated with cross-functional teams to improve wired and wireless network infrastructure, achieving uptime of up to 99.8%.",
+      "responsibilities": [
+        "Provided high-quality first and second level escalation support for networks and telecommunications.",
+        "Performed troubleshooting and resolved network issues quickly to minimize downtime.",
+        "Collaborated with cross-functional teams to enhance wired and wireless infrastructure."
+      ],
+      "technologies": ["Wired & Wireless Networking", "Troubleshooting"]
     }
   ],
 
   "projects": [
     {
-      "name": "SD-WAN Management Platform",
-      "description": "Platform manajemen terpusat untuk provisioning, monitoring, dan policy enforcement multi-site SD-WAN.",
-      "problem": "Konfigurasi SD-WAN manual di banyak site tidak scalable dan rawan inkonsistensi.",
-      "solution": "Membangun platform berbasis API untuk provisioning otomatis dan monitoring real-time.",
-      "stack": ["Python", "Ansible", "Fortinet API", "Grafana"],
-      "result": "Mengurangi waktu provisioning dari jam menjadi menit.",
-      "url": "https://github.com/username"
+      "name": "SD-WAN Migration — 300+ Branch Sites",
+      "description": "Large-scale migration from traditional WAN to Fortinet SD-WAN architecture across 300+ enterprise branch sites.",
+      "problem": "Traditional WAN was inflexible, costly, and difficult to scale for multi-site requirements.",
+      "solution": "Deployed Fortinet SD-WAN with centralized routing, failover, and application-aware traffic steering.",
+      "stack": ["Fortinet SD-WAN", "FortiGate", "Cisco", "Huawei"],
+      "result": "Improved WAN resilience, application performance, and cost optimization across 300+ sites."
     },
     {
-      "name": "Network Monitoring & Provisioning Dashboard",
-      "description": "Dashboard untuk memonitor health jaringan dan melakukan provisioning perangkat secara otomatis.",
-      "problem": "Tim NOC kesulitan melihat status jaringan secara agregat dan melakukan provisioning cepat.",
-      "solution": "Integrasi Zabbix + Prometheus + custom REST API untuk operasi terpusat.",
-      "stack": ["Python", "Zabbix", "Prometheus", "Grafana"],
-      "result": "Waktu respon insiden turun ~40%."
+      "name": "Multi-Tenant DC Network Security",
+      "description": "NAT and WAF policy configuration on Palo Alto NGFW for a multi-tenant Data Center environment.",
+      "problem": "Required segmentation and security compliance in a shared multi-tenant environment.",
+      "solution": "Implemented DNAT/SNAT policies, WAF custom signatures, and VPC security groups for micro-segmentation.",
+      "stack": ["Palo Alto NGFW", "WAF", "VPC", "AWS"],
+      "result": "Applied zero-trust network principles; customer-facing services protected."
     },
     {
-      "name": "MikroTik Network Automation",
-      "description": "Toolkit otomasi untuk konfigurasi massal, backup, dan audit perangkat MikroTik.",
-      "problem": "Pengelolaan ratusan router MikroTik dilakukan manual dan tidak terdokumentasi.",
-      "solution": "Otomasi menggunakan Python + Netmiko + NAPALM dengan Git-based config management.",
-      "stack": ["Python", "Netmiko", "NAPALM", "Git"]
+      "name": "DR to DRC Workload Migration",
+      "description": "Migration of workloads from Disaster Recovery to Disaster Recovery Center environment.",
+      "problem": "Business continuity plan required controlled failover with no downtime.",
+      "solution": "Executed planned failover event with cross-team coordination to ensure resource availability.",
+      "stack": ["DC Networking", "HA Topology", "Routing"],
+      "result": "Zero unplanned downtime throughout the migration."
     },
     {
-      "name": "ISP Network Infrastructure",
-      "description": "Perancangan dan implementasi jaringan ISP skala regional.",
-      "problem": "Kebutuhan kapasitas & redundansi jaringan untuk pertumbuhan pelanggan.",
-      "solution": "Desain topologi redundant dengan BGP multipath dan MPLS untuk segmentasi.",
-      "stack": ["Cisco", "BGP", "MPLS", "QoS"]
+      "name": "Government & Enterprise Network Operations",
+      "description": "Operations of network services for large government and enterprise institutions.",
+      "problem": "High availability and security requirements for public digital services.",
+      "solution": "End-to-end lifecycle management: implementation, monitoring, operations, and troubleshooting.",
+      "stack": ["BGP", "Metro Ethernet", "IP VPN", "Zabbix", "SIEM"],
+      "result": "99% uptime, MTTR < 30 minutes across 50+ incidents per month."
     },
     {
-      "name": "GenieACS / ONT Monitoring",
-      "description": "Monitoring dan manajemen ONT pelanggan via GenieACS dengan dashboard kustom.",
-      "problem": "Tidak ada visibilitas kondisi ONT pelanggan di lapangan.",
-      "solution": "Integrasi GenieACS API + dashboard monitoring + alerting otomatis.",
-      "stack": ["GenieACS", "Python", "Grafana"]
+      "name": "BGP Transit Peering Optimization",
+      "description": "Engineering BGP transit peering for IX and IIX connectivity.",
+      "problem": "Route path optimization for performance and transit cost efficiency.",
+      "solution": "Configured BGP peering with IX and IIX exchanges.",
+      "stack": ["BGP", "Cisco", "Huawei"],
+      "result": "Optimized routing paths and reduced transit costs."
     },
     {
-      "name": "Network Automation Platform",
-      "description": "Platform internal untuk otomasi tugas harian network engineer.",
-      "problem": "Task repetitif menyita waktu engineer dan rawan human error.",
-      "solution": "Kumpulan playbook Ansible + CLI tools dengan UI sederhana.",
-      "stack": ["Ansible", "Python", "Linux"]
+      "name": "10K+ Device Fleet Management",
+      "description": "Management of 10,000+ router and firewall devices across government and enterprise networks.",
+      "problem": "Large-scale device fleet required stability and operational efficiency.",
+      "solution": "Proactive monitoring, incident response, preventive maintenance, and OS/firmware lifecycle management.",
+      "stack": ["Zabbix", "SIEM", "Linux"],
+      "result": "Maintained 99% uptime across a 10,000+ device fleet."
     }
   ],
 
   "techStack": [
-    { "category": "Networking",     "items": ["Cisco", "Juniper", "Huawei", "MikroTik"] },
-    { "category": "Security",       "items": ["FortiGate", "pfSense"] },
-    { "category": "Automation",     "items": ["Python", "Ansible", "Netmiko", "NAPALM"] },
-    { "category": "Monitoring",     "items": ["Zabbix", "Grafana", "Prometheus"] },
-    { "category": "Infrastructure", "items": ["Linux", "Docker", "Git"] }
-  ]
+    { "category": "Networking",     "items": ["Cisco", "Juniper", "Huawei", "MikroTik", "Ruijie"] },
+    { "category": "Security",       "items": ["FortiGate", "Palo Alto", "Hillstone", "WAF", "IPsec"] },
+    { "category": "Automation",     "items": ["Python", "Ansible", "Netmiko", "NAPALM", "Git"] },
+    { "category": "Monitoring",     "items": ["Zabbix", "SIEM"] },
+    { "category": "Infrastructure", "items": ["Linux", "Windows Server", "AWS", "VPC"] }
+  ],
+
+  "certifications": [
+    { "name": "CCNA: Introduction to Networks", "issuer": "Cisco" },
+    { "name": "Fortinet Certified Associate in Cybersecurity", "issuer": "Fortinet" },
+    { "name": "Cloud Practitioner Essentials (AWS Cloud Fundamentals)", "issuer": "AWS / Dicoding" }
+  ],
+
+  "education": {
+    "school": "SMK Negeri Sitiuraja",
+    "degree": "Computer and Network Engineering",
+    "period": "Jul 2018 — Jun 2021"
+  }
 }

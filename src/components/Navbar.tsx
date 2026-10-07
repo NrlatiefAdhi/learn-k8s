@@ -6,11 +6,11 @@ export default function Navbar({ name }: { name: string }) {
           {name}
         </a>
         <ul className="hidden gap-6 font-mono text-xs text-neutral-400 sm:flex">
-          <li><a href="#about"      className="hover:text-neutral-100 transition">about</a></li>
-          <li><a href="#expertise"  className="hover:text-neutral-100 transition">expertise</a></li>
-          <li><a href="#experience" className="hover:text-neutral-100 transition">experience</a></li>
-          <li><a href="#projects"   className="hover:text-neutral-100 transition">projects</a></li>
-          <li><a href="#contact"    className="hover:text-neutral-100 transition">contact</a></li>
+          <li><a href="#about"          className="hover:text-neutral-100 transition">about</a></li>
+          <li><a href="#expertise"      className="hover:text-neutral-100 transition">expertise</a></li>
+          <li><a href="#experience"     className="hover:text-neutral-100 transition">experience</a></li>
+          <li><a href="#projects"       className="hover:text-neutral-100 transition">projects</a></li>
+          <li><a href="#contact"        className="hover:text-neutral-100 transition">contact</a></li>
         </ul>
       </nav>
     </header>
