@@ -23,8 +23,8 @@ spec:
         app.kubernetes.io/name: portfolio
         app.kubernetes.io/component: web
     spec:
-      imagePullSecrets:
-        - name: ghcr-pull-secret
+#      imagePullSecrets:
+#        - name: ghcr-pull-secret
       securityContext:
         runAsNonRoot: true
         runAsUser: 1000
