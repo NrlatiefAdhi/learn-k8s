@@ -26,7 +26,7 @@ jobs:
           node-version: 20
           cache: npm
 
-      - run: npm ci
+      - run: npm ci --include=dev
       - run: npm run lint --if-present
       - run: npm run build
 
@@ -76,12 +76,22 @@ jobs:
           echo "${{ secrets.KUBE_CONFIG }}" | base64 -d > ~/.kube/config
           chmod 600 ~/.kube/config
 
-      - name: Update image & apply
+      - name: Update image tag in kustomization
         run: |
+          SHORT_SHA=$(echo "${{ github.sha }}" | cut -c1-7)
           cd k8s
-          kustomize edit set image \
-            REGISTRY/USERNAME/portfolio=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:sha-${{ github.sha }}
-          kubectl apply -k .
+          sed -i "s|newTag: .*|newTag: sha-${SHORT_SHA}|" kustomization.yaml
+          echo "--- kustomization.yaml ---"
+          cat kustomization.yaml
+
+      - name: Apply manifests
+        run: kubectl apply -k k8s/
 
       - name: Verify rollout
-        run: kubectl -n default rollout status deployment/portfolio --timeout=120s
+        run: kubectl -n default rollout status deployment/portfolio --timeout=180s
+
+      - name: Show deployment status
+        if: always()
+        run: |
+          kubectl -n default get deploy/portfolio
+          kubectl -n default get pods -l app.kubernetes.io/name=portfolio
