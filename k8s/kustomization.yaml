@@ -8,4 +8,4 @@ resources:
 
 images:
   - name: ghcr.io/nrlatiefadhi/portfolio
-    newTag: sha-daebdb9
+    newTag: sha-8ed2fd3
