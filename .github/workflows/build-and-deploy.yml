@@ -1,5 +1,11 @@
 name: Build & Deploy Portfolio
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  push:
 on:
   push:
     branches: [main]
